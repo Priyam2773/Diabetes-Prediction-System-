@@ -4,8 +4,6 @@ Welcome to my **Diabetes Prediction** project!
 This simple but powerful web app helps predict whether a person has diabetes based on common medical check‑up numbers.  
 You can use it to test a single patient, upload a batch of data, or just learn about the model behind it.
 
-👉 **Live Demo:** *[Your Streamlit URL after deployment]*
-
 ---
 
 ## 🎯 What does this app do?
