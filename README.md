@@ -120,9 +120,3 @@ This application is created for educational and learning purposes. The predictio
 If you found this project helpful, consider giving the repository a ⭐ to support the project.
 
 
-## 🚀 How to run the app on your own computer
-
-1. **Clone this repository**  
-   ```bash
-   git clone https://github.com/Abhi2005-abhi/Diabetes-Prediction.git
-   cd Diabetes-Prediction
