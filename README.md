@@ -2,7 +2,7 @@
 
 A machine learning–powered web application that predicts whether a person is at risk of diabetes based on key medical parameters. The application features an intuitive interface built with Streamlit, allowing users to make predictions for individual patients or analyze multiple records at once.
 
-**🌐 Live Demo:** *[Add your Streamlit deployment link here]*
+**🌐 Live Demo:** *[(https://priyamdiabetes123.streamlit.app/)]*
 
 ---
 
