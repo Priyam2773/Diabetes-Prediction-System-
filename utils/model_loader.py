@@ -23,7 +23,7 @@ def load_or_train_model():
             return model
         except Exception as e:
             # Fallback to training on the fly if unpickling fails (e.g. library mismatches)
-            print(f"⚠️ Model load fail, training on the fly. Error: {e}")
+            print(f"[WARNING] Model load fail, training on the fly. Error: {e}")
 
     # Load dataset (using capitalization version compatible across platforms)
     df = pd.read_csv("Diabetes.csv")
@@ -45,7 +45,7 @@ def load_or_train_model():
     # Evaluate
     y_pred = pipeline.predict(X_test)
     acc = accuracy_score(y_test, y_pred)
-    print(f"✅ Model trained on the fly. Test accuracy: {acc:.2f}")
+    print(f"[SUCCESS] Model trained on the fly. Test accuracy: {acc:.2f}")
     
     # Save model
     try:
@@ -53,7 +53,7 @@ def load_or_train_model():
         with open("models/logistic_reg.sav", "wb") as f:
             pickle.dump(pipeline, f)
     except Exception as e:
-        print(f"⚠️ Failed to cache trained model to file: {e}")
+        print(f"[WARNING] Failed to cache trained model to file: {e}")
         
     return pipeline
 
